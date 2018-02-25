@@ -6729,6 +6729,17 @@ a {
   margin: 1rem 0;
   padding: 0; }
 
+.menu-gridItem {
+  display: grid;
+  align-content: space-between; }
+
+.menu-gridItem h2 {
+  margin: 0.5rem 0 0 0; }
+
+.menu-gridItem p {
+  font-size: 1.25rem;
+  font-weight: 400; }
+
 @media (min-width: 768px) {
   .menu-gridLayout {
     display: grid;
