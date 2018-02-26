@@ -6766,12 +6766,24 @@ a {
     .noGridColumn {
       flex: none;
       max-width: none; } } }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .menu-gridLayout {
     grid-template-columns: repeat(4, 1fr); }
 
   .noGridColumn {
     flex: 0 0 25%;
     max-width: 25%; } }
+/*
+@include media-breakpoint-up(xl) {
+  .menu-gridLayout {
+      grid-template-columns: repeat(6, 1fr);
+  }
+
+  .noGridColumn {
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+}
+*/
 
 /*# sourceMappingURL=pies.css.map */
