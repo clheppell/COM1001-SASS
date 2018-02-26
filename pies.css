@@ -6743,17 +6743,20 @@ a {
   font-size: 1.25rem;
   font-weight: 400; }
 
+.menu-gridLayout {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 20px;
+  column-gap: 20px;
+  grid-row-gap: 1rem;
+  row-gap: 1rem;
+  align-content: space-between;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto; }
+
 @media (min-width: 768px) {
   .menu-gridLayout {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    column-gap: 20px;
-    grid-row-gap: 2rem;
-    row-gap: 2rem;
-    align-content: space-between;
-    grid-template-rows: 1fr;
-    grid-template-columns: auto; }
+    grid-template-columns: repeat(2, 1fr); }
 
   .noGridColumn {
     flex: 0 0 25%;

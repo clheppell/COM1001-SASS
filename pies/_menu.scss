@@ -18,17 +18,21 @@
   font-weight: 400;
 }
 
+.menu-gridLayout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: $grid-gutter-width;
+    column-gap: $grid-gutter-width;
+    grid-row-gap: 1rem;
+    row-gap: 1rem;
+    align-content: space-between;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+}
+
 @include media-breakpoint-up(md) {
   .menu-gridLayout {
-      display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-column-gap: $grid-gutter-width;
-      column-gap: $grid-gutter-width;
-      grid-row-gap: 2rem;
-      row-gap: 2rem;
-			align-content: space-between;
-      grid-template-rows: 1fr;
-      grid-template-columns: auto;
   }
 
   .noGridColumn {
