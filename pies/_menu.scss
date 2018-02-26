@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.menu-gridLayout img {
+  min-width: 100%;
+}
+
 .menu-gridItem {
 	display: grid;
 	align-content: space-between;
