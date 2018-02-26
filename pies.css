@@ -6757,7 +6757,7 @@ a {
   grid-template-rows: 1fr;
   grid-template-columns: auto; }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .menu-gridLayout {
     grid-template-columns: repeat(2, 1fr); }
 
@@ -6769,6 +6769,9 @@ a {
     .noGridColumn {
       flex: none;
       max-width: none; } } }
+@media (min-width: 768px) {
+  .menu-gridLayout {
+    grid-template-columns: repeat(3, 1fr); } }
 @media (min-width: 992px) {
   .menu-gridLayout {
     grid-template-columns: repeat(4, 1fr); }
