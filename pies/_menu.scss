@@ -69,15 +69,8 @@
   }
 }
 
-/*
 @include media-breakpoint-up(xl) {
   .menu-gridLayout {
       grid-template-columns: repeat(6, 1fr);
   }
-
-  .noGridColumn {
-      flex: 0 0 25%;
-      max-width: 25%;
-  }
 }
-*/
