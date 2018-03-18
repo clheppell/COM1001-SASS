@@ -6542,7 +6542,7 @@ h3#reply-title {
 .slogan {
   text-align: right;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0; }
 
 .masthead, .topimage-halloffame {
