@@ -1,0 +1,28 @@
+.pieInfoList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: $grid-gutter-width/2;
+    column-gap: $grid-gutter-width/2;
+    grid-row-gap: 0.5rem;
+    row-gap: 0.5rem;
+    align-content: space-between;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto;
+}
+
+.pieInfoList dt, .pieInfoList dd {
+  padding: 0;
+  margin: 0;
+}
+
+@include media-breakpoint-up(sm) {
+  .pieInfoList {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .pieInfoList {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
