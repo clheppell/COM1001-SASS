@@ -6447,7 +6447,7 @@ body {
   padding: 0; }
 
 .menu-gridLayout img {
-  min-width: 100%; }
+  width: 100%; }
 
 .menu-gridItem {
   display: grid;
@@ -6550,6 +6550,10 @@ body {
   display: block;
   margin: 0 1rem 0 0;
   white-space: normal; }
+
+.pieDetails {
+  width: 100%;
+  height: auto; }
 
 .pieInfoList {
   display: grid;

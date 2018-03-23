@@ -5,7 +5,7 @@
 }
 
 .menu-gridLayout img {
-  min-width: 100%;
+  width: 100%;
 }
 
 .menu-gridItem {
@@ -23,15 +23,15 @@
 }
 
 .menu-gridLayout {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: $grid-gutter-width/2;
-    column-gap: $grid-gutter-width/2;
-    grid-row-gap: 1rem;
-    row-gap: 1rem;
-    align-content: space-between;
-    grid-template-rows: 1fr;
-    grid-template-columns: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: $grid-gutter-width/2;
+  column-gap: $grid-gutter-width/2;
+  grid-row-gap: 1rem;
+  row-gap: 1rem;
+  align-content: space-between;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto;
 }
 
 @include media-breakpoint-up(sm) {
@@ -54,23 +54,23 @@
 
 @include media-breakpoint-up(md) {
   .menu-gridLayout {
-      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @include media-breakpoint-up(lg) {
   .menu-gridLayout {
-      grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .noGridColumn {
-      flex: 0 0 25%;
-      max-width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
 
 @include media-breakpoint-up(xl) {
   .menu-gridLayout {
-      grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
