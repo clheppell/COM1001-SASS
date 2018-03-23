@@ -6421,10 +6421,10 @@ body {
 .pies-global-footer-inverse a:hover {
   color: #FFF; }
 
-.pies-global-footer-sponsors {
+.pies-global-footer-lighter {
   background: #777;
   color: #FFF;
-  padding: 1.4rem 00 0;
+  padding: 1.4rem 0 0 0;
   margin: 1rem 0 0; }
 
 /* Cookie Notice CSS */
