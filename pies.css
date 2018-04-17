@@ -5738,6 +5738,9 @@ html {
 body {
   background: #FFF; }
 
+.strike {
+  text-decoration: line-through; }
+
 .img-center {
   margin: 0 auto; }
 
